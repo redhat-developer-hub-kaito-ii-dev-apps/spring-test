@@ -1,4 +1,4 @@
-FROM openjdk:11-alpine
+FROM eclipse-temurin:11
 ENTRYPOINT ["/usr/bin/spring-test.sh"]
 
 COPY spring-test.sh /usr/bin/spring-test.sh
