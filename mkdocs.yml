@@ -1,0 +1,8 @@
+site_name: "spring-test"
+site_description: 
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
