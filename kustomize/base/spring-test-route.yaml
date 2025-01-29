@@ -1,0 +1,15 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  labels:
+    app: spring-test
+  name: spring-test
+  namespace: spring-test
+spec:
+  subdomain: spring-test
+  port:
+    targetPort: 8080-tcp
+  to:
+    kind: Service
+    name: spring-test
+    weight: 100
