@@ -13,3 +13,6 @@ spec:
     kind: Service
     name: spring-test
     weight: 100
+  tls:
+    insecureEdgeTerminationPolicy: Redirect
+    termination: edge
