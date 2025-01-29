@@ -19,5 +19,5 @@ spec:
       - image: imageName
         name: spring-test
         ports:
-        - containerPort: 8080
+        - containerPort: 6565
           protocol: TCP
