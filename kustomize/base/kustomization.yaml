@@ -7,5 +7,4 @@ commonLabels:
 resources:
   - spring-test-deploy.yaml
   - spring-test-service.yaml
-  - spring-test-namespace.yaml
   - spring-test-route.yaml
