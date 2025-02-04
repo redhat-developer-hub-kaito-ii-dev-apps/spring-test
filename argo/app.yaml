@@ -1,0 +1,16 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: test
+  namespace: test
+spec:
+  destination:
+    namespace: test
+    server: https://kubernetes.default.svc
+  project: test
+  source:
+    kustomize:
+      namespace: test
+    path: kustomize/overlays/dev
+    repoURL: https://github.com/redhat-developer-hub-kaito-ii-dev-apps/spring-test
+    targetRevision: HEAD
