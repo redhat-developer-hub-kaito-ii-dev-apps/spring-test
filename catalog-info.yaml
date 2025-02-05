@@ -5,6 +5,7 @@ metadata:
   annotations:
     github.com/project-slug: redhat-developer-hub-kaito-ii-dev-apps/spring-test
     backstage.io/techdocs-ref: dir:.
+    backstage.io/kubernetes-namespace: spring-test
 spec:
   type: service
   lifecycle: experimental
